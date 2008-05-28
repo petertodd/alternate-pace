@@ -1,3 +1,0 @@
-schematics display.sch ds3231.sch i2c.sch icsp.sch main.sch power.sch ui.sch
-output-name alternate-pace 
-elements-dir sym/
