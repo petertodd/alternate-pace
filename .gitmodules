@@ -1,0 +1,6 @@
+[submodule "firm"]
+	path = firm
+	url = git://git.petertodd.org/alternate-pace.firm.git
+[submodule "elec"]
+	path = elec
+	url = git://git.petertodd.org/alternate-pace.elec.git
