@@ -1,7 +1,7 @@
-[_] 83% Alternate Pace (Fast Clock, Slow Clock)
+[_] 80% Alternate Pace (Fast Clock, Slow Clock)
 	: http://www.lc-led.com/ <- many different colors of led seven-segment
 	: displays, 2.3" white available
-	[_] 83% Features
+	[_] 80% Features
 		[_] 66% Firmware
 			[X] 100% Interrupts
 				[X] Timer0
@@ -79,7 +79,7 @@
 					: Given the amount of eeprom available a bin scheme
 					: could easilly record every second spent at every
 					: temperature.
-		[X] 100% Hardware
+		[_] 95% Hardware
 			[X] 100% Electronics
 				[X] 100% Power
 					: T461-P5P-ND - power adapter, 12V 1.0A
@@ -239,7 +239,7 @@
 							[X] OSC (via UI test points)
 					[X] 100% PCB
 						[X] Placed
-			[X] 100% Mechanical
+			[_] 90% Mechanical
 				[X] Overall
 					: 11.25"x2.737"
 					: 
@@ -251,17 +251,12 @@
 					: two passes to do interior cutouts. Might as well rely on
 					: Johnston Plastics to do outer cutting, they seem to do
 					: it accurately enough.
-				[X] 100% Power jack location
-					: Checked on digikey, looks like the same setup as the
-					: spiral clock is the only option. We need 12V >1A and you
-					: just can't get wall adapters that beefy with small plugs
-					: on them.
-					:
-					: Two power jacks, on on bottom right corner and one on
-					: right bottom side. Looks like the device will be stable,
-					: so desk placement is a possibility. The two locations
-					: would look good on either a wall or a desk.
-					[X] Placed on PCB
+				[_] 50% Power jack
+					: RA blue DUBOX connector. Color contrast will look good
+					: against white silkscreen.
+					[X] Schematic
+					[_] Placed on PCB
+						: Remember to leave space, R/A!
 				[X] Hour/Minute/Seconds switches location
 					: Top of pcb, right at the edge. One per set of digits,
 					: place them right in the middle.
