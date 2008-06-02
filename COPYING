@@ -1,15 +1,10 @@
 Alternate Pace
-(c) 2007 Peter Todd <pete@petertodd.org>
+(c) 2007, 2008 Peter Todd <pete@petertodd.org>
 
 The files in this package are released under the Creative Commons
-Attribution-Noncommercial-Share Alike 3.0 License, except for the files under
-the firm/ directory and the files under the hard/elec/sym directory which are
-released under the GNU General Public License version 2 or greater, see
-firm/COPYING
-
-Note that some of the footprints and symbols under hard/elec/sym are derived
-from symbols and footprints from the gEDA package and therefore must be
-released under the GPL.
+Attribution-Noncommercial-Share Alike 3.0 License, except where indicated
+otherwise. Note that this specificly precludes making instances of this project
+for commercial gain.
 
 To view a copy of the Creative Commons Attribution-Noncommercial-Share Alike
 3.0 License, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a
