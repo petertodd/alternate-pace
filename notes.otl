@@ -1,16 +1,16 @@
-[_] 80% Alternate Pace (Fast Clock, Slow Clock)
+[X] 100% Alternate Pace (Fast Clock, Slow Clock)
 	: http://www.lc-led.com/ <- many different colors of led seven-segment
 	: displays, 2.3" white available
-	[_] 80% Features
-		[_] 66% Firmware
+	[X] 100% Features
+		[X] 100% Firmware
 			[X] 100% Interrupts
 				[X] Timer0
 					: Driven by DS3231 32khz output.
 					:
 					: All functionality done here, otherwise processor runs a
 					: idle loop.
-			[_] 0% UI
-				[_] Brightness control
+			[X] 100% UI
+				[X] Brightness control
 			[X] 100% Internal Metrics
 				: Should make a better, abstracted internal metrics
 				: library.
@@ -79,7 +79,7 @@
 					: Given the amount of eeprom available a bin scheme
 					: could easilly record every second spent at every
 					: temperature.
-		[_] 95% Hardware
+		[X] 100% Hardware
 			[X] 100% Electronics
 				[X] 100% Power
 					: T461-P5P-ND - power adapter, 12V 1.0A
@@ -239,7 +239,7 @@
 							[X] OSC (via UI test points)
 					[X] 100% PCB
 						[X] Placed
-			[_] 90% Mechanical
+			[X] 100% Mechanical
 				[X] Overall
 					: 11.25"x2.737"
 					: 
@@ -251,11 +251,11 @@
 					: two passes to do interior cutouts. Might as well rely on
 					: Johnston Plastics to do outer cutting, they seem to do
 					: it accurately enough.
-				[_] 50% Power jack
+				[X] 100% Power jack
 					: RA blue DUBOX connector. Color contrast will look good
 					: against white silkscreen.
 					[X] Schematic
-					[_] Placed on PCB
+					[X] Placed on PCB
 						: Remember to leave space, R/A!
 				[X] Hour/Minute/Seconds switches location
 					: Top of pcb, right at the edge. One per set of digits,
