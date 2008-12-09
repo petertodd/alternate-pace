@@ -32,7 +32,7 @@
 \usepackage{url}
 \begin{document}
 \title{Alternate Pace v2.2}
-\subtitle{0123456789abcdef}
+\subtitle{286a6cabd5829284}
 \author{Peter Todd}
 \date{}
 \maketitle
@@ -41,10 +41,13 @@
 
 \section{Overview}
 
-The Alternate Pace clock uses the standard definition for the hours and
-minutes, however for the seconds the user is given the option of having 120
-seconds in a minute, or 30 seconds in a minute, thereby subtly altering the
-perception of the passage of time.
+Professionals intent on meeting opportunities will find the Alternate Pace
+clock an asset to their busy schedules. It has two operating modes: a normal
+mode for day to day usage, and a value-add mode, for hourly billing
+calculations. The latter mode also helps you ship deliverables on time,
+productivize meetings, make going-forward your core competency, right-size your
+minutes, and allow midnight to achieve synergy with lunch. Through day-to-day
+usage you will quickly notice a paradigm shift in the way you perceive time.
 
 \subsection{Specifications}
 
@@ -54,7 +57,8 @@ perception of the passage of time.
 	\item User interface: Seven segment LED display and push-buttons
 	\item Power source: 12VDC 1A wall adapter
 	\item Blackout endurance: minimum 24 hours
-	\item Internally tracked metrics: Hours meter and user interactions
+	\item Internally tracked metrics: Hours meter and stakeholder interactions
+    \item Specifications met: NASA-STD-0005, NASA-STD-8739.2, NASA-STD-8739.3, NASA-STD-8739.8, ISO 10553:2003, ANSI INCITS 310-1998 (R2003), NSS-1740.12
 \end{itemize}
 
 \section{Mounting}
@@ -63,15 +67,16 @@ Two slots on the back are provided for hanging. They accept any screw or nail
 that fits securely. The distance between the two slots is 9.450" Two power
 jacks are also provided; use which ever one best fits the installation.
 
+
 \section{Setting the time}
 
 As shown in Figure \ref{fig:top-buttons} there are three buttons used for
 setting the time, each positioned above the digits that it changes, hours,
 minute or seconds. The hours and minutes buttons both increment the associated
-digits. Seconds however resets the the seconds to zero. This is provided to
-allow you to accurately synchronize the seconds with a master clock by setting
-the minutes to be a minute ahead, and then resetting the seconds at the turn of
-the minute.
+digits. Seconds however resets the the seconds to zero upon being held down for
+two seconds. This is provided to allow you to accurately synchronize the
+seconds with a master clock by setting the minutes to be a minute ahead, and
+then resetting the seconds at the turn of the minute.
 
 \begin{figure}
 \centering
@@ -80,7 +85,13 @@ the minute.
 \label{fig:top-buttons}
 \end{figure}
 
-\pagebreak
+\section{Mode switching}
+
+To switch between the timescale of your competitors, and your organization,
+simple push the button above the seconds digits briefly. Going forward the
+clock will maintain a beyond competitive pace until the seconds button is
+pushed again, at which point the timescale is re-synergized for a strategic fit
+with your competitors scheduled deliverables.
 
 \section{12 and 24 hour modes}
 
@@ -98,14 +109,6 @@ non-volatile memory and will be remembered if the power is disconnected.
 \label{fig:front-running-12hr-am}
 \end{figure}
 
-\section{Fast and slow modes}
-
-To switch between the fast, 120 seconds in a minute, and slow, 30 seconds in a
-minute, modes first disconnect power from the Alternate Pace. Then hold either
-the hours, or seconds button down, for slow and fast modes respectively. Now
-while holding the buttons down reconnect the power and release the button. You
-will see the new mode now. Like the 12/24hour setting, the fast/slow mode is
-stored in non-volatile memory and will persist even if power is removed.
 
 \section{Brightness Control}
 
@@ -150,7 +153,7 @@ addresses and their meanings is as follows:
 0x10 - 0x13 & Max temperature & \# Raw value from DS3231 \\ \hline
 0x14 - 0x17 & Min temperature & \# Raw value from DS3231 \\ \hline
 0x18 - 0x1B & Metrics mode usage& \# of times activated\\ \hline
-0x1C - 0x1F & Fast/Slow & Fast or slow mode \\ \hline
+0x1C - 0x1F & Unassigned & May be any value \\ \hline
 0x20 - 0x23 & 12/24hr & 12 or 24 hour mode \\ \hline
 \end{tabular}
 
